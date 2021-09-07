@@ -42,7 +42,12 @@ public class MetodosAbstratos {
 				shapes.add(new Rectangle(color, height, widht));
 				break;
 			}
-			
+		}
+		System.out.println("------------------------------------------------");
+		System.out.println("Shape areas: ");
+		
+		for(Shape sh : shapes) {
+			System.out.println(String.format("%.2f", sh.area()));
 		}
 		sc.close();
 	}
