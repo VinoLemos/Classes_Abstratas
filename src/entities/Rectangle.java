@@ -48,7 +48,7 @@ public class Rectangle extends Shape{
 // método, é preciso adicionar a anotaçao @Override, e sobescrever o método original.
 	@Override
 	public double area() {
-		return widht * height;
+		return widht * height;	
 	}
 
 }
