@@ -10,7 +10,7 @@ import entities.Rectangle;
 import entities.Shape;
 import entities.enums.Color;
 
-public class Main {
+public class MetodosAbstratos {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
