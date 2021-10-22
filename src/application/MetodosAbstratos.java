@@ -26,7 +26,7 @@ public class MetodosAbstratos {
 			System.out.print("Rectangle or circle? (c/r)");
 			char ch = sc.next().charAt(0);
 			System.out.print("Shape color (BLACK/BLUE/RED): ");
-			Color color = Color.valueOf(sc.next());//Palavar que o usuário digitar será convertida para o tipo enumerado
+			Color color = Color.valueOf(sc.next());//Palava que o usuário digitar será convertida para o tipo enumerado
 			
 			switch (ch) {
 			case 'c':
